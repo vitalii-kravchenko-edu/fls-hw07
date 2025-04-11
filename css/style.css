@@ -112,6 +112,7 @@ body {
 .card-link {
     color: #FE3F3F;
     line-height: 1.27;
+    margin-right: 20px;
 }
 
 .card-link:hover {
@@ -166,6 +167,108 @@ body {
     vertical-align: middle;
 }
 
+#task3 {
+    background-color: #412672;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.game__container {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.game__container>*:hover,
+.game__container>*:hover+* {
+    visibility: visible;
+}
+
+.game__start,
+.game__end {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    color: #FFBE48;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+}
+
+.block {
+    background-color: #FFBE48;
+    visibility: hidden;
+}
+
+.game__block1 {
+    width: 300px;
+    height: 70px;
+    margin-left: 70px;
+    margin-top: -70px;
+}
+
+.game__block2 {
+    width: 65px;
+    height: 150px;
+    margin-left: 370px;
+    margin-top: -70px;
+}
+
+.game__block3 {
+    width: 230px;
+    height: 60px;
+    margin-left: 370px;
+}
+
+.game__block4 {
+    width: 55px;
+    height: 100px;
+    margin-left: 545px;
+}
+
+.game__block5 {
+    width: 500px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.game__block6 {
+    width: 45px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.game__block7 {
+    width: 400px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.game__block8 {
+    width: 35px;
+    height: 35px;
+    margin-left: 465px;
+}
+
+.game__block9 {
+    width: 200px;
+    height: 30px;
+    margin-left: 300px;
+}
+
+.game__block10 {
+    width: 25px;
+    height: 70px;
+    margin-left: 300px;
+}
+
+.game__end {
+    background-color: red;
+    color: #412672;
+    margin-left: 255px;
+}
 
 .footer {
     padding: 50px 0 50px;
